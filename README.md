@@ -44,9 +44,3 @@ src/
 - `favouritesReducer` handles the `TOGGLE_FAVOURITE` action. Favourites are initialized from and persisted to `localStorage`.
 - `useCallback` memoizes the search input handler. `useMemo` computes the filtered photo list and favourite ID set.
 - Tailwind CSS is the only styling system; no component library is used.
-
-## Before submitting
-1. Run the app and verify photos, search, favourite toggling, and persistence after refresh.
-2. Push this project to a **public GitHub repository**.
-3. Record a **5-minute screen recording** explaining the app, custom hook, reducer, `useCallback`, `useMemo`, and one challenge.
-4. Submit both links and one sentence about the hardest part through the Google Form shared by the recruiter.
